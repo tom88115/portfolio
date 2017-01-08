@@ -16,6 +16,7 @@ body{margin: 0px;}
 #works_container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .work_tile {
     flex: 1;
