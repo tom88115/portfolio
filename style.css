@@ -13,12 +13,27 @@ body{margin: 0px;}
     text-align: center
 }
 
+/*
 #works_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+*/
+
+#works_container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+}
 .work_tile {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     min-height: 375px;
     min-width: 375px;
