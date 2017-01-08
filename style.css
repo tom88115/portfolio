@@ -13,12 +13,72 @@ body{margin: 0px;}
     text-align: center
 }
 
-.work.container{
+#works_container{
     display: flex;
     flex-wrap: wrap;
 }
 .work_tile {
-    flex: 1 0 50%;
+    flex: 1;
     min-height: 375px;
     min-width: 375px;
+    max-height: 414px;
+    max-width: 414px;
+    overflow: hidden;
+    
+}
+#work1{
+    background: url(images/1.jpg) no-repeat center;
+    background-size: cover;
+}
+#work2{
+    background: url(images/2.jpg) no-repeat center;
+    background-size: cover;
+}
+#work3{
+    background: url(images/3.jpg) no-repeat center;
+    background-size: cover;
+}
+#work4{
+    background: url(images/4.jpg) no-repeat center;
+    background-size: cover;
+}
+#work5{
+    background: url(images/5.jpg) no-repeat center;
+    background-size: cover;
+}
+#work6{
+    background: url(images/6.jpg) no-repeat center;
+    background-size: cover;
+}
+#work7{
+    background: url(images/7.jpg) no-repeat center;
+    background-size: cover;
+}
+#work8{
+    background: url(images/8.jpg) no-repeat center;
+    background-size: cover;
+}
+#work9{
+    background: url(images/9.jpg) no-repeat center;
+    background-size: cover;
+}
+#work10{
+    background: url(images/10.jpg) no-repeat center;
+    background-size: cover;
+}
+#work11{
+    background: url(images/11.jpg) no-repeat center;
+    background-size: cover;
+}
+#work12{
+    background: url(images/12.jpg) no-repeat center;
+    background-size: cover;
+}
+#work13{
+    background: url(images/13.jpg) no-repeat center;
+    background-size: cover;
+}
+#work14{
+    background: url(images/14.jpg) no-repeat center;
+    background-size: cover;
 }
